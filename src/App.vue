@@ -5,12 +5,6 @@ import BodyChild from '@/components/BodyChild.vue'
 import TitleChild from '@/components/TitleChild.vue'
 import axios from 'axios'
 
-mounted () {
-    axios
-      .get('https://jsonplaceholder.typicode.com/posts/2')
-      .then(response => (this.post = response))
-  }
-
 const post = ref({
   userId: 1,
   id: 2,
