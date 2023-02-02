@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import HelloWorld from '@/components/HelloWorld.vue'
+import TitleChild from '@/components/TitleChild.vue'
 
 const msg = ref('Hello World!')
 </script>
@@ -8,5 +8,5 @@ const msg = ref('Hello World!')
 <template>
   <input v-model="msg">
 
-  <HelloWorld :msg="msg" />
+  <TitleChild :titleP="msg" />
 </template>
