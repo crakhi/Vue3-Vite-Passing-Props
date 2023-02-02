@@ -1,5 +1,8 @@
 <template>
-{{idP}}
+  ID: {{ idP }}
+  <br />
+  <br />
+  <br />
 </template>
 
 <script setup>

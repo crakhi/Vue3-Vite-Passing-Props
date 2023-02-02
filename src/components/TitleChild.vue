@@ -1,5 +1,8 @@
 <template>
-{{titleP}}
+  TITLE: {{ titleP }}
+  <br />
+  <br />
+  <br />
 </template>
 
 <script setup>

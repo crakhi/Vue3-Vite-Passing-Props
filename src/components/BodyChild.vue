@@ -1,5 +1,8 @@
 <template>
-{{bodyP}}
+  BODY: {{ bodyP }}
+  <br />
+  <br />
+  <br />
 </template>
 
 <script setup>
